@@ -9,9 +9,9 @@
 <main><div class="sectionhead"><div><h2>Explora nuestras categorías</h2><p class="muted">Elige un área y descubre contenido para ti.</p></div></div>
 <div class="categories" id="categories">
 <button type="button" class="cat" onclick="filterCategory(this.dataset.cat)" data-cat="Electricidad y Automatización"><span class="ico" style="background:#e4efff">⚡</span><strong>Electricidad y Automatización</strong></button>
-<button class="cat" data-cat="Contabilidad y Finanzas"><span class="ico" style="background:#e1f5e9">📊</span><strong>Contabilidad y Finanzas</strong></button>
-<button class="cat" data-cat="Informática"><span class="ico" style="background:#f1e9ff">💻</span><strong>Informática</strong></button>
-<button class="cat" data-cat="Minería"><span class="ico" style="background:#fff1d8">⛏️</span><strong>Minería</strong></button></div>
+<button type="button" class="cat" onclick="filterCategory(this.dataset.cat)" data-cat="Contabilidad y Finanzas"><span class="ico" style="background:#e1f5e9">📊</span><strong>Contabilidad y Finanzas</strong></button>
+<button type="button" class="cat" onclick="filterCategory(this.dataset.cat)" data-cat="Informática"><span class="ico" style="background:#f1e9ff">💻</span><strong>Informática</strong></button>
+<button type="button" class="cat" onclick="filterCategory(this.dataset.cat)" data-cat="Minería"><span class="ico" style="background:#fff1d8">⛏️</span><strong>Minería</strong></button></div>
 <div class="sectionhead"><div><h2 id="catalogTitle">Todos los cursos y manuales</h2><p class="muted">También puedes encontrar productos relacionados en más de una categoría.</p></div></div>
 <div class="filters"><select id="type"><option value="Todos">Todos los formatos</option><option value="Curso grabado">Cursos grabados</option><option value="Manual digital">Manuales digitales</option></select><select id="currency"><option value="PEN">Precios en soles (S/)</option><option value="USD">Precios en dólares (US$)</option></select><button class="cartbtn" id="clearFilter" style="padding:10px 13px">Ver todo</button></div>
 <div class="grid" id="catalog"></div>
